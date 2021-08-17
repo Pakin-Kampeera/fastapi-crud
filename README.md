@@ -1,16 +1,30 @@
 # Basic CRUD Operation
 
+## Features
+
+- Authentication (OAuth2 + JWT)
+- Personal Blog
+
 ## Technology
 
-- REST framework (FastAPI)
+- FastAPI (Restful framework)
+- SQLite3 (Database)
 
 ## Prerequisite
 
+- Git
 - Python3
 
 ## Installation
 
-Windows user
+```
+git clone git@github.com:Pakin-Kampeera/fastapi_crud.git
+cd fastapi_crud
+```
+
+## Enable Virtual Environment
+
+#### Windows user
 
 ```
 python3 -m venv fastapi_dev
@@ -18,7 +32,7 @@ fastapi_dev\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
-Mac use
+#### Mac use
 
 ```
 python3 -m venv fastapi_dev
@@ -29,6 +43,9 @@ pip install -r requirements.txt
 ## Start
 
 ```
-python main.py
+python server.py
 ```
+
+## Test API
+
 http://127.0.0.1:8000/docs
