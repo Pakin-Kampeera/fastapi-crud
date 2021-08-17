@@ -13,7 +13,7 @@
 Windows user
 
 ```
-python -m venv fastapi_dev
+python3 -m venv fastapi_dev
 fastapi_dev\Scripts\activate.bat
 pip install -r requirements.txt
 ```
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Mac use
 
 ```
-python -m venv fastapi_dev
+python3 -m venv fastapi_dev
 source fastapi_dev/bin/activate
 pip install -r requirements.txt
 ```
@@ -31,3 +31,4 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+http://127.0.0.1:8000/docs

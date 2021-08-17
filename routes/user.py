@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends
 from typing import List
-from .. import schemas
 from sqlalchemy.orm import Session
-from ..database import get_db
-from ..controller import user
+from config.database import get_db
+from schemas import schemas
+from controller import user
 
 router = APIRouter(prefix='/user', tags=['User'])
 

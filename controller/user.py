@@ -1,7 +1,8 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
-from .. import models, schemas
-from hashing import Hash
+from schemas import schemas
+from models import models
+from util.hashing import Hash
 
 
 def show_by_id(id, db: Session):

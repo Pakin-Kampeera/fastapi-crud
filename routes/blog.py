@@ -1,11 +1,11 @@
 from fastapi import APIRouter, status, Depends
 from typing import List
-from .. import schemas
 from sqlalchemy.orm import Session
-from ..database import get_db
-from ..controller import blog
+from config.database import get_db
+from schemas import schemas
+from controller import blog
 
-router = APIRouter(prefix='blog', tags=['Blogs'])
+router = APIRouter(prefix='/blog', tags=['Blogs'])
 
 
 @router.get('/{id}', status_code=status.HTTP_200_OK, response_model=schemas.ShowBlog)

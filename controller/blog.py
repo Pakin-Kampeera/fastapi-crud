@@ -1,6 +1,7 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
-from .. import models, schemas
+from schemas import schemas
+from models import models
 
 
 def show_by_id(id, db: Session):
