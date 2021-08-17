@@ -29,6 +29,5 @@ pip install -r requirements.txt
 ## Start
 
 ```
-cd blog
 python main.py
 ```
