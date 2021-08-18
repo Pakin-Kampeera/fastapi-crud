@@ -32,7 +32,7 @@ fastapi_dev\Scripts\activate.bat
 pip install -r requirements.txt
 ```
 
-#### Mac use
+#### Mac user
 
 ```
 python3 -m venv fastapi_dev
